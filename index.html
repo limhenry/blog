@@ -2,22 +2,39 @@
 layout: default
 ---
 
-<div class="home">
+{% for post in paginator.posts %}
 
-  <h1 class="page-heading">Posts</h1>
+   <!-- here add you post markup -->
+   <h1><a href="/blog{{ post.url }}">{{ post.title }}</a></h1>
+   <p class="author">
+    <span class="date">{{post.date | date: "%-d %-B %Y" }}</span>
+  </p>
+<div class="post-content-truncate">
+  {% if post.content contains "<!-- more -->" %}
+    {{ post.content | split:"<!-- more -->" | first % }}
+  {% else %}
+    {{ post.content | strip_html | truncatewords:50 }}
+  {% endif %}
+  <h1><a href="/blog{{ post.url }}" class="readmore">Read More</a></h1>
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+{% endfor %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="/blog/index.html" class="previous">Previous</a>
+    {% else %}
+      <a href="/blog/page{{ paginator.previous_page }}/" class="previous">Previous</a>
+    {% endif %}
+  {% else %}
+    <span>Previous</span>
+  {% endif %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
+  {% if paginator.next_page %}
+    <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
+  {% endif %}
 </div>

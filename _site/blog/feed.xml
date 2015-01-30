@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog - Henry Lim</title>
+    <description>This is the first and only blog for Henry Lim. I will post some interesting story or some review to this blog. Just keep follow to my blog.
+</description>
+    <link>http://limhenry.github.io/blog/</link>
+    <atom:link href="http://limhenry.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 30 Jan 2015 19:10:46 +0800</pubDate>
+    <lastBuildDate>Fri, 30 Jan 2015 19:10:46 +0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>My First Post</title>
+        <description>&lt;p&gt;Hello World.&lt;/p&gt;
+
+&lt;p&gt;I am Henry Lim.&lt;/p&gt;
+
+&lt;p&gt;I am a student, developer and human of course.&lt;/p&gt;
+
+&lt;p&gt;And this is my first blog and it’s hosted on GitHub. Anyway, this awesome blog is built by using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. It’s quite simple to build a blog like this. At the meantime, this blog is still under development and the blog (layout) will update from time to time.&lt;/p&gt;
+
+&lt;p&gt;Sometime, you might ask me, why don’t use blogger or wordpress. In Blogger/WordPress, you just write your post, and you can straight away post it. &lt;/p&gt;
+
+&lt;p&gt;But in GitHub, you need to create a blog by yourself (thanks to Jekyll, that save my life…). Then, you can change the layout by using CSS without any limitation (which is nearly impossible in Blogger/WordPress), and I got a very lousy reason to learn HTML/CSS ( ͡° ͜ʖ ͡°), LOL.&lt;/p&gt;
+
+&lt;p&gt;I love web, so I love HTML. Of course, I only love a beautiful website, maybe Material Design?&lt;/p&gt;
+
+&lt;p&gt;Since this blog is still under development, it’s time to let me continue to make this website better and nicer, &lt;/p&gt;
+
+&lt;p&gt;Thank you for reading my first post on this website.&lt;/p&gt;
+
+&lt;p&gt;By the way, remember to visit my home page : &lt;a href=&quot;http://limhenry.github.io&quot;&gt;limhenry.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have a nice day ^^&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 31 Jan 2015 02:17:00 +0800</pubDate>
+        <link>http://limhenry.github.io/blog/2015/01/31/My-First-Post.html</link>
+        <guid isPermaLink="true">http://limhenry.github.io/blog/2015/01/31/My-First-Post.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

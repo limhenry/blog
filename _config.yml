@@ -1,14 +1,14 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Blog - Henry Lim
+email: henrylim.everything@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ This is the first and only blog for Henry Lim. I will post some interesting story or some review to this blog. Just keep follow to my blog.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://limhenry.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  limhenry
+paginate: 5
+destination: "_site/blog"
 
 # Build settings
 markdown: kramdown

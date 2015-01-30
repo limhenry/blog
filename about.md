@@ -4,8 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I am Henry Lim.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Developer. Student. Human. 
+
+My life is simple. Just code and code.
+
+I also love beautiful UI, especially Material Design.
+
+Feel free to visit my Website at [limhenry.github.io](http://limhenry.github.io).
+
+You can find me via Google Plus:[+HenryLim96](http://plus.google.com/+HenryLim96) and my GitHub, [LimHenry](http://github.com/limhenry).

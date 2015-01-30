@@ -6,9 +6,49 @@
 </description>
     <link>http://limhenry.github.io/blog/</link>
     <atom:link href="http://limhenry.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Jan 2015 20:08:16 +0800</pubDate>
-    <lastBuildDate>Fri, 30 Jan 2015 20:08:16 +0800</lastBuildDate>
+    <pubDate>Fri, 30 Jan 2015 21:17:31 +0800</pubDate>
+    <lastBuildDate>Fri, 30 Jan 2015 21:17:31 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Quick review of my PC (Ubuntu)</title>
+        <description>&lt;p&gt;A quick review of my PC with Ubuntu&lt;/p&gt;
+
+&lt;p&gt;I am using ASUS X550LD right now, overall it is OK. This computer is pre-installed with Windows 8.1 but…… (Most of the time) I am using Ubuntu 14.04.1. &lt;/p&gt;
+
+&lt;p&gt;Why? Is Ubuntu better than Windows?&lt;/p&gt;
+
+&lt;p&gt;The answer is yes and no. I can’t afford to buy a MacBook, so I ‘force’ to buy a Windows PC. And now, I installed this Ubuntu to my lappy. Firstly, it runs sucks because the graphic card (NVIDIA Geforce 820M) can’t detect, until one day (I also dunno the reason) my Ubuntu detected that graphic card without any reason. &lt;/p&gt;
+
+&lt;p&gt;Ok, now graphic card is detected, it is time to say goodbye to Windows. &lt;/p&gt;
+
+&lt;p&gt;For me, Ubuntu is an OS like Mac OS, but you “can’t run Photoshop”. It’s fast, just I hate that default design. Thanks to &lt;a href=&quot;https://github.com/HiiYL&quot;&gt;Hii&lt;/a&gt;, he introduced and taught me something very awesome which is called “Gnome”. It’s awesome and beautiful. Somehow I love &lt;a href=&quot;http://www.google.com/design/spec/material-design/introduction.html&quot;&gt;Material Design&lt;/a&gt; so much, so I decided to make my Ubuntu more material design. In conclusion, it’s very very nice!&lt;/p&gt;
+
+&lt;p&gt;Performance? Yes, it is better than Windows. For example, it’s easier to run Jekyll in Ubuntu compare to Windows. Another example is: Android Studio.&lt;/p&gt;
+
+&lt;p&gt;Last time, I didn’t know Ubuntu is so fast, then I using Windows to develop and build some Android app. It’s suck, slow and you will see “Not Responding” almost everyday (every hour, maybe?). The compile app duration in Windows is around 3-4 minutes (in my case), but when I compile in Ubuntu, it only took 30-40 seconds. Seriously? Yep, Ubuntu is amazing.&lt;/p&gt;
+
+&lt;p&gt;One thing (two actually), make my Ubuntu a bit ‘haiz’ are speaker and touchpad. Due to kernel/driver problem, that touchpad doesn’t work with my laptop, luckily I got mouse. Next, speaker. The sound in Ubuntu is really very ‘unlistenable’. Luckily I got &lt;a href=&quot;http://www.webupd8.org/2013/03/install-pulseaudio-with-built-in-system.html&quot;&gt;Pulse Audio Equalizer&lt;/a&gt;, which make my laptop’s speaker better a little bit, but not so nice. &lt;/p&gt;
+
+&lt;p&gt;How about the Microsoft latest OS, Windows 10, which is still under technical preview, it’s still very buggy. For me, Windows 7, 8, 8.1 and 10 are same. But what I need is a fast OS, so Hello Ubuntu, Hello Linux, Hello World.&lt;/p&gt;
+
+&lt;p&gt;I will talk about my opinion and hand-on with Windows 10 Technical Preview in next post. Thanks for reading my post, have a nice day. ^^&lt;/p&gt;
+
+&lt;p&gt;Scereenshot:
+&lt;img src=&quot;http://i.imgur.com/ubCiK7d.png&quot; alt=&quot;Desktop&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/taVGc9q.png&quot; alt=&quot;Taskbar&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/hJh5gtG.png&quot; alt=&quot;Setting&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/JVZmfQy.png&quot; alt=&quot;Task Manager&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/7iaafQq.png&quot; alt=&quot;App&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/txYvGGz.png&quot; alt=&quot;File Manager&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/E5ddFzw.png&quot; alt=&quot;Spotify&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 05:15:00 +0800</pubDate>
+        <link>http://limhenry.github.io/blog/2015/01/31/Quick-review-of-My-PC.html</link>
+        <guid isPermaLink="true">http://limhenry.github.io/blog/2015/01/31/Quick-review-of-My-PC.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>My First Post</title>

@@ -35,3 +35,6 @@ Scereenshot:
 ![App](http://i.imgur.com/7iaafQq.png)
 ![File Manager](http://i.imgur.com/txYvGGz.png)
 ![Spotify](http://i.imgur.com/E5ddFzw.png)
+
+
+Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.

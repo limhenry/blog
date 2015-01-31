@@ -4,7 +4,11 @@ title:  "Google Glass, Hands On and a very quick review"
 date:   2015-01-31 14:20:00
 ---
 
-Finally, I managed to borrow Google Glass from [Yap Wen Jiun](http://www.wenjiun.my/). 
+Google Glass, Google Glass, Google Glass, Google Glass, Google Glass, Google Glass, Google Glass, Google Glass...
+
+It became my favourite tech gadget the moment it announced to public.
+
+Anyway, I managed to borrow that awesome Google Glass from [Yap Wen Jiun](http://www.wenjiun.my/). 
 
 Google Glass is awesome, it’s light and it’s amazing.
 

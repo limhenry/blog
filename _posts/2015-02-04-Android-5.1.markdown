@@ -1,17 +1,30 @@
 ---
 layout: post
-title:  "Android 5.1?"
-date:   2015-02-04 16:00:00
+title:  "[UPDATE, IT’S REAL] Android 5.1"
+date:   2015-02-04 18:00:00
 ---
 
-Android One is coming to Indonesia very very soon and the phone will running the ‘latest’ version of Android 5.1. What? 5.1??? YES, 5.1 not 5.01!
+Few hours ago, Google updated their site for Android One in Indonesia with Android 5.1. 
 
-![Imgur](http://i.imgur.com/Paz7t9i.png)
+And now, it’s real and confirmed. Android 5.1 is now running on Evercoss One X, Mito Impact and Nexian Journey. And it will also available to update for Nexus 5,6 and 9 very very soon.
 
-##Android 5.1
+Here is some images from [AndroidPolice.com](http://www.androidpolice.com/2015/02/04/the-next-android-revision-is-indeed-android-5-1-lollipop-already-shipping-on-android-one-phones-coming-soon-to-nexus-devices/)
+
+![AP](http://www.androidpolice.com/wp-content/uploads/2015/02/nexus2cee_wm_android-5.1-lollipop.jpg)
+![AP](http://www.androidpolice.com/wp-content/uploads/2015/02/nexus2cee_wm_2015-02-04-2.jpg)
+![AP](http://www.androidpolice.com/wp-content/uploads/2015/02/nexus2cee_wm_2015-02-04-5.jpg)
+
+
+We mentioned this few hours ago:
+
+>Android One is coming to Indonesia very very soon and the phone will running the ‘latest’ version of Android 5.1. What? 5.1??? YES, 5.1 not 5.01!
+
+>![Imgur](http://i.imgur.com/Paz7t9i.png)
+
+>##Android 5.1
 The sweetest version of Android, 5.0 Lollipop is announced during Google I/O 2014. And now Google ‘introduce’ the new Android 5.1 indirectly but it sound legit.
 
-Source : [Android.com](http://www.android.com/intl/en-GB_id/one/)
+>Source : [Android.com](http://www.android.com/intl/en-GB_id/one/)
 
 Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.
 

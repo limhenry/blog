@@ -2,10 +2,10 @@
 title: Blog - Henry Lim
 email: henrylim.everything@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- This is the first and only blog for Henry Lim. I will post some interesting story or some review to this blog. Just keep follow to my blog.
+ This is the first and only blog for Henry Lim. I will post some interesting story or some review to this blog. Just keep follow and subscribe to my blog.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://limhenry.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+twitter_username: henrylim96
 github_username:  limhenry
 paginate: 5
 destination: "_site/blog"

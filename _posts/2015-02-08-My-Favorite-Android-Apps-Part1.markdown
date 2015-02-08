@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Favorite Android Apps - Part 1"
+title:  "My Favorite Android Apps"
 date:   2015-02-08 12:00:00
 ---
 

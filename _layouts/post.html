@@ -1,16 +1,28 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+<article>
+  
+  <header id="post-card">
+    <h1 id="post-title2">{{ page.title }}</h1>
+    <p id="date-user">{{ page.date | date_to_string }} •  posted by Henry Lim</p>
   </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-	<div>{% include disqus.html %}</div>
+  <div id="post-card">{% include adsense.html %}</div>
+  <div id="post-card">
+  {{ content }}
 </div>
+<p id="post-card">Note: if there are any funny grammatical errors, don’t laugh but <a href="mailto:henrylim.everything@gmail.com?subject=Funny Grammar">email</a> me, thanks ^^.</p>
+<div id="post-card">{% include adsense.html %} </div>
+<div id="post-card">{% include disqus.html %}</div>
+  <aside id="post-card">
+    <h1>Related Posts</h1>
+    <ul>
+      {% for post in site.related_posts %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+ </article>

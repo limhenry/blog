@@ -58,5 +58,3 @@ Any questions/comments? You are welcome to comment at the Discussion area below.
 Bye bye and have a nice day. 
 * Chinese New Year is coming ^^
 
-
-Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.

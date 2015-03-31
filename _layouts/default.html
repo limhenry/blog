@@ -1,24 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body unresolved>   
 
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {% include adsense.html %} <br>
-        {{ content }}<br>
-        {% include adsense.html %} 
-      </div>
+    <core-scaffold responsivewidth="768px" id="core_scaffold">
+    <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
+    <core-toolbar id="core_toolbar" style="background-image: url({{base.url}}/image/drawer.jpg)">
+    <div class="bottom" style="font-size:0.8em">
+    <div style="padding-bottom:2px">Blog</div>
+    <div style="font-weight:bold">HENRY LIM</div>
     </div>
+    </core-toolbar>
+    <core-menu valueattr="label" id="core_menu" theme="core-light-theme">
+          <core-item id="core_item"label="Home" horizontal center layout><a href="https://limhenry.me"></a></core-item>
+          <core-item id="core_item1" label="Blog" horizontal center layout><a href="/"></a></core-item>
+          <core-item id="core_item2" label="Search" horizontal center layout><a href="/search"></a></core-item>
+          <core-item id="core_item3" label="Subscribe" horizontal center layout><a href="http://eepurl.com/bdrwRz"></a></core-item>
+        </core-menu>
+       
+</core-header-panel>
+<div id="header" tool center horizontal layout center-justified><a href="/">HENRY LIM | BLOG</a></div>
+<div class="content">
+  {{ content }}  
+</div>
 
-    {% include footer.html %}
-{% include analytics.html %} 
-
+</core-scaffold>
 
   </body>
-
 </html>

@@ -28,13 +28,11 @@ I will talk about my opinion and hand-on with Windows 10 Technical Preview in ne
 
 
 Scereenshot:
-![Desktop](http://i.imgur.com/ubCiK7d.png)
-![Taskbar](http://i.imgur.com/taVGc9q.png)
-![Setting](http://i.imgur.com/hJh5gtG.png)
-![Task Manager](http://i.imgur.com/JVZmfQy.png)
-![App](http://i.imgur.com/7iaafQq.png)
-![File Manager](http://i.imgur.com/txYvGGz.png)
-![Spotify](http://i.imgur.com/E5ddFzw.png)
 
-
-Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.
+{% include image.html url="http://i.imgur.com/ubCiK7d.png" %} 
+{% include image.html url="http://i.imgur.com/taVGc9q.png" %} 
+{% include image.html url="http://i.imgur.com/hJh5gtG.png" %} 
+{% include image.html url="http://i.imgur.com/JVZmfQy.png" %} 
+{% include image.html url="http://i.imgur.com/7iaafQq.png" %} 
+{% include image.html url="http://i.imgur.com/txYvGGz.png" %} 
+{% include image.html url="http://i.imgur.com/E5ddFzw.png" %} 

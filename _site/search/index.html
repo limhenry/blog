@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="mobile-web-app-capable" content="yes"> 
+<meta name="application-name" content="Blog"> 
+<title>Search - Blog</title>
+<script src="/bower_components/platform/platform.js"></script>
+<script src="/bower_components/webcomponentsjs/webcomponents.js"></script>
+<link rel="import" href="/bower_components/font-roboto/roboto.html">
+<link rel="import" href="/bower_components/core-scaffold/core-scaffold.html">
+<link rel="import" href="/bower_components/core-header-panel/core-header-panel.html">
+<link rel="import" href="/bower_components/core-menu/core-menu.html">
+<link rel="import" href="/bower_components/core-item/core-item.html">
+<link rel="import" href="/bower_components/core-icon-button/core-icon-button.html">
+<link rel="import" href="/bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" href="/bower_components/core-menu/core-submenu.html">
+<link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="/bower_components/paper-tabs/paper-tab.html">
+<link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="/bower_components/paper-input/paper-input.html">
+<link rel="import" href="/bower_components/paper-ripple/paper-ripple.html">
+
+
+<link rel="manifest" href="/manifest.json">
+
+
+<link rel="stylesheet" href="/main.css" shim-shadowdom>
+
+<script src="/pace/pace.min.js"></script>  
+<link href="/pace/dataurl.css" rel="stylesheet" />  
+  </head>
+  <body unresolved>   
+
+    <core-scaffold responsivewidth="768px" id="core_scaffold">
+    <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
+    <core-toolbar id="core_toolbar" style="background-image: url(/image/drawer.jpg)">
+    <div class="bottom" style="font-size:0.8em">
+    <div style="padding-bottom:2px">Blog</div>
+    <div style="font-weight:bold">HENRY LIM</div>
+    </div>
+    </core-toolbar>
+    <core-menu valueattr="label" id="core_menu" theme="core-light-theme">
+          <core-item id="core_item"label="Home" horizontal center layout><a href="https://limhenry.me"></a></core-item>
+          <core-item id="core_item1" label="Blog" horizontal center layout><a href="/"></a></core-item>
+          <core-item id="core_item2" label="Search" horizontal center layout><a href="/search"></a></core-item>
+          <core-item id="core_item3" label="Subscribe" horizontal center layout><a href="http://eepurl.com/bdrwRz"></a></core-item>
+        </core-menu>
+       
+</core-header-panel>
+<div id="header" tool center horizontal layout center-justified><a href="/">HENRY LIM | BLOG</a></div>
+<div class="content">
+  <style>
+h1, input::-webkit-input-placeholder, button {
+  font-family: 'roboto', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+input {
+  margin: 40px 25px;
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+}
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+#button {
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 200px;
+  color: white;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+#button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+</style>
+
+
+
+
+<div id="search-card">
+
+  <!-- Search form -->
+  <form method="get" action="/search" data-search-form>
+    <label for="q">Search term</label>
+    <input placeholder="Search" type="search" required="" name="q" id="q" data-search-input >
+    <input type="submit" value="Search" id="button" />
+  </form>
+  </div>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+
+  <!-- Search results placeholder -->
+  
+  <p data-search-found id="search-card">
+    <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+  </p>
+  <div data-search-results></div>
+
+
+
+
+
+  <!-- Search result template -->
+
+  <script type="text/x-template" id="search-result">
+    <div id="search-card">
+      <h1><a href="##Url##">##Title##</a></h1>
+      <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
+    </div>
+
+  </script>
+
+
+
+  <!-- jQuery - required but can be moved to the <head> -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <!-- Search script - Must appear after template -->
+  <script src="/scripts/search.js"></script>
+  
+</div>
+
+</core-scaffold>
+
+  </body>
+</html>

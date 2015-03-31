@@ -30,12 +30,10 @@ Conclusion: DON’T BUY.it’s not so cheap anyway. Buy Nexus 5 instead. Nexus 5
 
 Note: there is still no news about Android 5.0, Lollipop official update for Xperia M2. Sad news T.T
 
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hgm7sPbXeVk" frameborder="0" allowfullscreen></iframe>
-
-
-Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.
+<div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
+    <iframe width="560" height="349" src="http://www.youtube.com/embed/Hgm7sPbXeVk" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 

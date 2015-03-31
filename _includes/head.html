@@ -1,12 +1,31 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="mobile-web-app-capable" content="yes"> 
+<meta name="application-name" content="Blog"> 
+<title>{{ page.title }} - {{ site.title }}</title>
+<script src="{{ site.baseurl }}/bower_components/platform/platform.js"></script>
+<script src="{{ site.baseurl }}/bower_components/webcomponentsjs/webcomponents.js"></script>
+<link rel="import" href="{{ site.baseurl }}/bower_components/font-roboto/roboto.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/core-scaffold/core-scaffold.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/core-header-panel/core-header-panel.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/core-menu/core-menu.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/core-item/core-item.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/core-icon-button/core-icon-button.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/core-menu/core-submenu.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/paper-tabs/paper-tab.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/paper-input/paper-input.html">
+<link rel="import" href="{{ site.baseurl }}/bower_components/paper-ripple/paper-ripple.html">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-</head>
+<link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+
+
+<link rel="stylesheet" href="{{ site.baseurl }}/main.css" shim-shadowdom>
+
+<script src="{{ site.baseurl }}/pace/pace.min.js"></script>  
+<link href="{{ site.baseurl }}/pace/dataurl.css" rel="stylesheet" />  

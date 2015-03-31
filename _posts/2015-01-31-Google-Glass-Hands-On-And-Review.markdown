@@ -30,12 +30,12 @@ It’s coming soon to us because [“Google Glass is graduating from Google[x] l
 
 Hello Glass, Hello Google, Hello World.
 
-![Imgur](http://i.imgur.com/W793fXo.jpg)
-![Imgur](http://i.imgur.com/UoqkTtw.jpg)
-![Imgur](http://i.imgur.com/xxlsjlz.jpg)
-![Imgur](http://i.imgur.com/SV8V5Lf.jpg)
+{% include image.html url="http://i.imgur.com/W793fXo.jpg" description="Google Glass" %} 
+{% include image.html url="http://i.imgur.com/UoqkTtw.jpg" description="Google Glass" %} 
+{% include image.html url="http://i.imgur.com/xxlsjlz.jpg" description="Google Glass" %} 
+{% include image.html url="http://i.imgur.com/SV8V5Lf.jpg" description="Google Glass" %} 
 
-Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.
+
 
 
 

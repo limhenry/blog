@@ -4,7 +4,7 @@ title:  "Journey to Yogyakarta - Day 0"
 date:   2015-03-01 12:00:00
 ---
 
-It's time to write something again. And I didn't write anything for nearly one month. Now, it's time to write something interesting.<br><br>
+It's time to write something again, as I didn't write anything for nearly one month. Now it's time to write something interesting.<br><br>
 
 #Day 0, The story before the journey
 
@@ -16,15 +16,14 @@ Hello World. <br>
 
 Last week, I travelled to Yogyakarta, Indonesia. 
 
-Yogyakarta, is also known as Jogja. It needs around 2 hours from Singapore /Johor Bahru to Yogyakarta by flight. Air Asia did provide direct flight from Johor Bahru (JHB) to Yogyakarta (JOG).
+Yogyakarta is also known as Jogja. The journey from Singapore /Johor Bahru to Yogyakarta by flight takes around 2 hours. Air Asia offers direct flight from Johor Bahru (JHB) to Yogyakarta (JOG).
 
-Anyway, it is Yogyakarta, not Jakarta. So, any special thing in Yogyakarta? Yes, Borobudur, Gunung Merapi (Volcano!) are located around Yogyakarta. And you also can see that volcano just from the Yogyakarta city! Sound awesome right? <br><br>
+Anyway, it is Yogyakarta, not Jakarta. So, is there anything special in Yogyakarta? Yes, Borobudur, Gunung Merapi (Volcano!) are located around Yogyakarta. And you also can see that volcano just from the Yogyakarta city! It sounds awesome right?  <br><br>
 
 #Why Yogyakarta?
-The reason I went to Yogyakarta because I got free ticket from Airasia (AirAsiaGo.com actually, it is free flight ticket when you book the hotel with them). It costs around 800 Ringgit Malaysia for 3 person with a Triple/Double Room for 6 nights. Yes, it's very very cheap so it's time to fly again.<br><br>
+The reason I went to Yogyakarta was because I got a free ticket from Airasia (AirAsiaGo.com actually, which gives away a free flight ticket when you book a hotel through its website). It (THE ACCOMMODATION OR ACCOMMODATION + FLIGHT TICKETS?) costs around 800 Ringgit Malaysia for 3 people with a Triple/Double Room for 6 nights. Yes, it’s very very cheap so it’s time to fly again.<br><br>
 
 #Landing failed?!
-What? Yes, they (pilot, not me) failed to land the Airbus 320-200 on Yogyakarta Airport. 
-<br>So? What happen next? I will going to talk about that on the next post and it's coming soon :)
+What? Yes, they (THEY - PLURAL, SHOULD BE PILOTS IN THIS CASE) (pilot, not me) failed to land the Airbus 320-200 on Yogyakarta Airport. 
+<br>So? What happened next? I will talk about it on the next post and it’s coming soon :)
 
-<br><br>Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.

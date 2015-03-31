@@ -1,40 +1,36 @@
 ---
 layout: default
+title: Home
 ---
+<main >
+	<div id="home-card-ads">{% include adsense.html %} </div>
+	{% for post in site.posts %}
+	
+	<section>
+	<div id="home-card-link">
+		<a href="{{ site.baseurl }}{{ post.url }}">
+			<div id="home-card">
+				<h2 id="post-title">{{ post.title }}</h2>
+				<p id="date-user">{{post.date | date: "%-d %-B %Y" }} •  posted by Henry Lim</p>
+				{{ post.excerpt }}
+				<p id="read-more">Read More</p>
+			
 
-{% for post in paginator.posts %}
+			
+			</div>
+		</a>
+	</div>
+		
+	</section>
+	{% endfor %}
+	<div id="home-card-ads">{% include adsense.html %} </div>
+	<div id="footer">
+	<p>Blog - Henry Lim</p>
+	<a href="mailto:henrylim.everything@gmail.com">henrylim.everything@gmail.com</a><br><br>
+	This is the first and only blog for Henry Lim.<br>
+	I will post some interesting story or some review to this blog. Just keep follow and subscribe to my blog.
+	</div>
 
-   <!-- here add you post markup -->
-   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-   <p class="author">
-    <span class="date">{{post.date | date: "%-d %-B %Y" }}</span>
-  </p>
-<div class="post-content-truncate">
-  {% if post.content contains "<!-- more -->" %}
-    {{ post.content | split:"<!-- more -->" | first % }}
-  {% else %}
-    {{ post.content | strip_html | truncatewords:50 }}
-  {% endif %}
-  <h1><a href="{{ post.url }}" class="readmore">Read More</a></h1>
-</div>
 
-{% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="/index.html" class="previous">Previous</a>
-    {% else %}
-      <a href="/page{{ paginator.previous_page }}/" class="previous">Previous</a>
-    {% endif %}
-  {% else %}
-    <span>Previous</span>
-  {% endif %}
-
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% endif %}
-</div>
+</main>

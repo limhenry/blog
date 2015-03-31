@@ -20,5 +20,3 @@ Again, feel free to visit [limhenry.me](limhenry.me). And wish you Happy Chinese
 
 *PS: sometime, can you disable your AdBlock when you visit this blog? Haha :)
 
-
-Note: if got any funny grammar errors, don't laugh but [email](mailto:henrylim.everything@gmail.com?subject=Funny Grammar) me, thanks ^^.

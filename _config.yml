@@ -1,12 +1,2 @@
-# Site settings
-title: Blog - Henry Lim
-email: henrylim.everything@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
- This is the first and only blog for Henry Lim. I will post some interesting story or some review to this blog. Just keep follow and subscribe to my blog.
-twitter_username: henrylim96
-github_username:  limhenry
-paginate: 5
-url: http://blog.limhenry.me
-
-# Build settings
-markdown: kramdown
+title: Blog
+name: Henry Lim
